@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch AgroLabranzaApplication",
+            "request": "launch",
+            "mainClass": "com.misiontic2022.agrolabranza.AgroLabranzaApplication",
+            "projectName": "laplaza"
+        },
+        {
+            "type": "java",
+            "name": "Launch LaplazaApplication",
+            "request": "launch",
+            "mainClass": "com.misiontic2022.laplaza.LaplazaApplication",
+            "projectName": "laplaza"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
